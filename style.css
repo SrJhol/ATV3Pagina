@@ -1,0 +1,64 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Cabeçalho e Menu */
+header {
+  background-color: #333;
+  padding: 1rem 0;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.menu li a:hover,
+.menu li a[aria-current="page"] {
+  text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+  padding: 2rem;
+  min-height: 80vh;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+ main {
+    min-height: calc(100vh - (altura_do_header + altura_do_footer) );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+ }
