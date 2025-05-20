@@ -1,0 +1,69 @@
+/* Formulário */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Labels */
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Inputs e Fieldset */
+form input[type="text"],
+form input[type="tel"],
+form input[type="number"],
+form fieldset {
+  width: 100%;
+  margin-top: 0.3rem;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Fieldset ajustes */
+form fieldset {
+  border: 1px solid #aaa;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+/* Legend */
+form legend {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Botão */
+form button[type="submit"] {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Ajusta foco nos inputs */
+form input:focus {
+  border-color: #333;
+  outline: none;
+  box-shadow: 0 0 5px #666;
+}
