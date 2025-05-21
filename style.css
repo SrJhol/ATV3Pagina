@@ -9,7 +9,9 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f9f9f9;
-  color: #333;
+  color: #000000;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 /* Cabeçalho e Menu */
@@ -62,7 +64,7 @@ footer {
     padding: 2rem;
     text-align: center;
 
-    background-image: url(fundo.jpg);
+    background-image: url(fundo.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
