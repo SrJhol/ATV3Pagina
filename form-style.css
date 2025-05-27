@@ -1,5 +1,6 @@
 /* Formulário */
 form {
+  width: 100%;
   max-width: 500px;
   margin: 0 auto;
   background-color: #fff;
@@ -67,3 +68,4 @@ form input:focus {
   outline: none;
   box-shadow: 0 0 5px #666;
 }
+

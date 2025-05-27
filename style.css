@@ -20,12 +20,6 @@ header {
   padding: 1rem 0;
 }
 
-.menu {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-}
 
 .menu li a {
   color: #fff;
@@ -51,9 +45,6 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
  main {
     min-height: calc(100vh - (altura_do_header + altura_do_footer) );
@@ -69,3 +60,33 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
  }
+
+ @media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+    .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
